@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of PNGMap</title>
+	<nodes>
+		<node label="html-template">
+			<node label="history">
+				<node icon="cssIcon" label="history.css" url="source/html-template/history/history.css.html"/>
+				<node label="history.js" url="source/html-template/history/history.js.txt"/>
+				<node icon="htmlIcon" label="historyFrame.html" url="source/html-template/history/historyFrame.html"/>
+			</node>
+			<node icon="htmlIcon" label="index.template.html" url="source/html-template/index.template.html"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/html-template/playerProductInstall.swf"/>
+			<node label="swfobject.js" url="source/html-template/swfobject.js.txt"/>
+		</node>
+		<node label="src">
+			<node icon="imageIcon" label="bretagne.png" url="source/bretagne.png.html"/>
+			<node icon="actionScriptIcon" label="ImageReference.as" url="source/ImageReference.as.html"/>
+			<node icon="mxmlAppIcon" selected="true" label="PNGMap.as" url="source/PNGMap.as.html"/>
+		</node>
+	</nodes>
+	<zipfile label="Download source (ZIP, 25K)" url="PNGMap.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex451_sdk_download">
+	</sdklink>
+</index>
