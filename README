@@ -1,1 +1,10 @@
-Javascript hitTest on tranparent PNG without html5 or SVG
+Javascript hitTest on transparent PNG without html5 or SVG.
+Uses a pre-generated map of PNG.
+
+Generator included in source. 
+
+Generator Demo :
+http://labs.positronic.fr/js/png-hittest/generator/
+
+hitTest demo :
+http://labs.positronic.fr/js/png-hittest/
