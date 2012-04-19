@@ -13,12 +13,16 @@ function PNGMap(){}
  */
 PNGMap.hitTest = function(map, x, y){
     var b = false;
+	x = Math.round(x);
+	y = Math.round(y);
     if(map[y] != null)
     {
         var n = map[y].length;
         for(var i = 0; i<n; i++){
-            if(x > map[y][i][0] && x < map[y][i][1])
+            if(x > map[y][i][0] && x < map[y][i][1]){
                 b = true;
+				break;
+			}
         }
     }
     return b;
